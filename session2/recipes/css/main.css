@@ -11,16 +11,13 @@ a {
 p {
   display: inline;
 }
-.nav li {
-  display: inline;
-}
 
 .nav {
   padding: 0;
 }
 
-ul li {
-  display: inline;  
+.nav li {
+  display: inline;
 }
 
 ol li:first-child {
