@@ -8,8 +8,15 @@ a {
   text-decoration: none;
 }
 
-.links li {
+p {
   display: inline;
+}
+.nav li {
+  display: inline;
+}
+
+.nav {
+  padding: 0;
 }
 
 ul li {
