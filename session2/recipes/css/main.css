@@ -1,14 +1,19 @@
-* {
-  padding: 0px;
-  margin: 0px;
+body {
+  padding: 0 0 0 20px;
+  margin: 0;
 }
 
 a {
   color: grey;
+  text-decoration: none;
 }
 
 .links li {
   display: inline;
+}
+
+ul li {
+  display: inline;  
 }
 
 ol li:first-child {
@@ -17,4 +22,17 @@ ol li:first-child {
 
 h1, h2, h3, h4, h5, h6 {
   color: #77B29E;
+}
+
+h1 {
+  padding: 10px 0 0 0;
+}
+
+h2 {
+  padding: 0 10px 0 0;
+}
+
+h3 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 2px;
 }
