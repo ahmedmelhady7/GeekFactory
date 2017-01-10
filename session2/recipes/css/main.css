@@ -1,0 +1,20 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  color: grey;
+}
+
+.links li {
+  display: inline;
+}
+
+ol li:first-child {
+  color: red;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #77B29E;
+}
