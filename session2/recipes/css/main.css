@@ -1,10 +1,24 @@
 body {
-  padding: 0 0 0 20px;
   margin: 0;
+  background-color: #333;
 }
 
-a {
-  color: grey;
+header {
+  background-color: coral;
+  text-align: center;
+  color: white;
+  padding-bottom: 1px;
+}
+
+.main {
+  background-color: white;
+  padding: 10px;
+  margin: 20px 25%;
+  width: 50%;
+}
+
+header a {
+  color: white;
   text-decoration: none;
 }
 
@@ -20,12 +34,13 @@ p {
   display: inline;
 }
 
-h1, h2, h3, h4, h5, h6 {
+main h1, h2, h3, h4, h5, h6 {
   color: #77B29E;
 }
 
 h1 {
   padding: 10px 0 0 0;
+  margin: 0;
 }
 
 h2 {
@@ -54,5 +69,17 @@ h3 {
 .recipes li {
     border: 1px solid #b56663;
     margin-bottom: 5px;
-    padding-left: 15px;
+}
+.recipes li:first-child{
+    padding-bottom: 3px;
+}
+
+.recipes img {
+  float: left;
+  margin-right: 10px;
+}
+
+.recipes h3, p {
+  padding-left: 15px;
+  display: block;
 }
