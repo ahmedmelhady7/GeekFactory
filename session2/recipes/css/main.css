@@ -20,10 +20,6 @@ p {
   display: inline;
 }
 
-ol li:first-child {
-  color: red;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color: #77B29E;
 }
@@ -39,4 +35,24 @@ h2 {
 h3 {
   border-bottom: 1px solid grey;
   padding-bottom: 2px;
+}
+
+.recipes {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes a {
+    color: #7facaa;
+    text-decoration: none;
+}
+
+.recipes h3 {
+    border-bottom: 0;
+}
+
+.recipes li {
+    border: 1px solid #b56663;
+    margin-bottom: 5px;
+    padding-left: 15px;
 }
