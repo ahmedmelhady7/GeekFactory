@@ -132,8 +132,9 @@ main article {
 
 main article .title {
 	margin: 0px;
-	padding: 0px 0px 5px 0px;
+	padding: 0px 10px 5px 0px;
 	border-bottom: #BFC9AE solid 1px;
+	/*min-height: 84px;*/
 }
 
 main article time{
@@ -170,8 +171,7 @@ main article .links li {
 
 aside {
 	float: right;
-	width: 30%
-	/*width: 270px;*/
+	width: 30%;
 }
 
 aside ul {
@@ -246,4 +246,47 @@ aside a:hover {
 
 #footer a {
 	color: #FFFFFF;
+}
+
+@media (max-width: 1170px) {
+  main article {
+	  width: 50%;
+  }
+}
+@media (max-width: 768px) {
+
+  main {
+	  width: initial;
+	  float: none;
+	  overflow: hidden;
+  }
+
+  main article {
+	  width: initial;
+	  height: initial;
+  }
+  
+  main article .title {
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+  }
+  main article img {
+	  float: left;
+	  margin-right: 10px; 
+  }
+  #header h1 {
+	  top: 25px;
+  }
+  #menu a {
+	padding: 0 5px 0px 15px;
+  }
+  main {
+	  width: 100%;
+  }
+  .links {
+	  clear: left;
+  }
+  aside {
+	  width: 100%;
+  }
 }
