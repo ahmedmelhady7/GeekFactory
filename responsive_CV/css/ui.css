@@ -1,0 +1,254 @@
+/** {
+  outline: 1px solid lightcoral;
+}*/
+
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0px;
+  font-size: 1.5vw;
+  border: 1px solid;
+}
+
+header {
+  border-bottom: 1px solid green;
+}
+
+h1 {
+  font-size: 2.6vw;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 1.8vw;
+  margin-top: 5px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.vl {
+  border-left: thick solid #ff0000;
+}
+
+.contact-info li {
+  list-style: none;
+  margin: 10px;
+  padding-bottom: 15px;
+}
+
+i {
+  margin: 0 30px 0 10px;
+  color: green;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 80%;
+  height: auto;
+  border: 3px solid #333;
+  margin: 15% 20%;
+  display: block;
+}
+
+.right-side {
+  padding-left: 30px;
+}
+
+.block-black {
+  border-left: 40px solid black;
+}
+
+.block-green {
+  border-left: 40px solid green;
+  padding-left: 10px;
+}
+
+.block-white {
+  border-left: 40px solid white;
+}
+
+.content {
+    display: flex;
+    padding-top: 20px;
+}
+
+.content li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.work, .education {
+    width: 95%;
+}
+
+.work ul, .education ul {
+  padding: 0;
+}
+
+.education h4, h5, .work h4, h5 {
+  margin: 5px;
+  padding: 0;
+}
+.tasks-list li {
+  list-style: square;
+}
+.tasks-title {
+  margin: 10px 60px;
+}
+
+.tasks-list {
+  margin: 0 0 0 80px;
+}
+
+.education h3, .work h3 {
+  margin-left: 50px;
+}
+
+.progress-container{
+  width:57%;
+  height:1.2em;
+  position:relative;
+  background-color:white;
+  margin-left: 5px;
+  margin-right: 50px;
+  border: 1px solid green;
+}
+
+.progress-bar{
+  background-color: green;
+  height:100%;
+  position:absolute;
+  line-height:inherit;
+}
+
+.skills ul {
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.skills ul li p {
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+meter {
+  width: 280px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-left: 10px 
+}
+
+meter::-webkit-meter-bar {
+  background: none; /* Required to get rid of the default background property */
+  background-color: whiteSmoke;
+  box-shadow: 0 5px 5px -5px green inset;
+}
+
+meter::-webkit-meter-optimum-value {
+  box-shadow: 0 5px 5px -5px #f28f68 inset;
+  background-image: linear-gradient(
+    90deg, 
+    green 45%,
+    green 55%
+  );
+  background-size: 100% 100%;
+}
+
+.interests ul {
+  display: flex;
+  padding: 0;
+}
+
+.interests li:first-child {
+  padding-left: 0;
+}
+
+.interests li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.achievements ul {
+  padding: 0;
+}
+
+.achievements li {
+  padding-bottom: 10px;
+}
+
+.lang-list {
+  padding: 0;
+}
+
+.lang-list li {
+  display: inline;
+}
+
+.languages {
+  width: 80%;
+}
+
+.projects ul {
+  padding: 0px;
+}
+
+.projects h4 {
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+}
+
+.project-details li {
+  list-style: square;
+}
+
+.project-details {
+  padding-left: 20px !important;
+}
+
+
+@media (max-width: 1170px) {
+  * {
+    outline: 1px solid red;
+  }
+}
+@media (max-width: 768px) {
+  * {
+    outline: 1px solid blue;
+  }
+
+  .col-12-sm img {
+    max-width: 30%;
+    margin: 0 auto;
+  }
+
+  .contact-info {
+    padding: 10px 0px;
+    margin: 0 auto;
+  }
+
+  .contact-info li {
+    margin: 0px;
+    display: inline;
+  }
+
+  .work, .education {
+    width: 97%;
+  }
+
+  .content {
+    display: block;
+  }
+  .col-12-sm {
+    width: 100%;
+  }
+}
