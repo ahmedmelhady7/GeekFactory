@@ -36,6 +36,7 @@ p {
   list-style: none;
   margin: 10px;
   padding-bottom: 15px;
+  text-align: right;
 }
 
 i {
@@ -50,6 +51,10 @@ img {
   border: 3px solid #333;
   margin: 15% 20%;
   display: block;
+}
+
+.left-side {
+  padding: 0;
 }
 
 .right-side {
@@ -85,6 +90,10 @@ img {
 
 .work ul, .education ul {
   padding: 0;
+}
+
+.work li, .education li {
+  list-style: none;
 }
 
 .education h4, h5, .work h4, h5 {
@@ -139,28 +148,22 @@ img {
   display: inline;
 }
 
-meter {
-  width: 280px;
-  height: 25px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  padding-left: 10px 
+.progress-container{
+  width:57%;
+  height:1.2em;
+  position:relative;
+  background-color:white;
+  margin-left: 5px;
+  margin-right: 50px;
+  border: 1px solid green;
+  margin-left: auto;
 }
 
-meter::-webkit-meter-bar {
-  background: none; /* Required to get rid of the default background property */
-  background-color: whiteSmoke;
-  box-shadow: 0 5px 5px -5px green inset;
-}
-
-meter::-webkit-meter-optimum-value {
-  box-shadow: 0 5px 5px -5px #f28f68 inset;
-  background-image: linear-gradient(
-    90deg, 
-    green 45%,
-    green 55%
-  );
-  background-size: 100% 100%;
+.progress-bar{
+  background-color: green;
+  height:100%;
+  position:absolute;
+  line-height:inherit;
 }
 
 .interests ul {
