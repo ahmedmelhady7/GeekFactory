@@ -65,12 +65,12 @@ img {
   border-left: 40px solid black;
 }
 
-.block-green {
+.title, .left-li {
   border-left: 40px solid green;
   padding-left: 10px;
 }
 
-.block-white {
+.brief {
   border-left: 40px solid white;
 }
 
@@ -229,7 +229,7 @@ img {
     outline: 1px solid blue;
   }
 
-  .col-12-sm img {
+  img {
     max-width: 30%;
     margin: 0 auto;
   }
@@ -250,8 +250,5 @@ img {
 
   .content {
     display: block;
-  }
-  .col-12-sm {
-    width: 100%;
   }
 }
